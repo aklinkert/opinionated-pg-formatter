@@ -1,7 +1,9 @@
-name: Build And Push
+name: Build
 
 on:
   push:
+    tags:
+      - 'v*'
     branches:
       - 'main'
 

@@ -1,4 +1,4 @@
-name: Test build
+name: Test
 
 on:
   pull_request:
@@ -15,9 +15,7 @@ jobs:
 
     permissions:
       contents: read
-      packages: write
-      attestations: write
-      id-token: write
+      packages: read
 
     steps:
       - name: Checkout repository
