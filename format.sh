@@ -1,3 +1,4 @@
+#!/usr/bin/env bash
 set -eo pipefail
 
 function format_file() {
